@@ -14,7 +14,7 @@
 
 .nav-link>a{
     margin: 0 10px;
-    color: blueviolet;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 .sec1{
@@ -26,7 +26,7 @@
     
     grid-template-rows: repeat(5,400px);
     grid-template-columns: repeat(5,200px);
-    background-color: #666;
+    background-color: #fff;
 
 }
 .position-relative{
@@ -135,14 +135,41 @@
     background-image: url(./pic01/15.jpg);
     background-size: cover; 
 }
+.grid-pic16{
+    height: 50%;
+    grid-area: 5/5/6/6;
+    background-color: #f0f0f0;   
+    background-size: cover; 
+}
+
 
 .grid-text-position{
     height: 200px;
     width: 200px;
-   
     position: absolute;
     bottom: 0;
     right: 0;
+}
+.grid-text-position>h3{
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    
+}
+.grid-text-position>p{
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.1rem;
+}
+.grid-text16>a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    padding: 45% 0 45% ;
+    
 }
 .grid-text1{
     background-color: rgba(253,148,140,0.7);

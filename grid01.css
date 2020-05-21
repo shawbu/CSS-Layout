@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.nav-link>a{
+    margin: 0 10px;
+    color: blueviolet;
+    text-decoration: none;
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    display: grid;
+    
+    grid-template-rows: repeat(5,400px);
+    grid-template-columns: repeat(5,200px);
+    background-color: #666;
+
+}
+.position-relative{
+    position: relative;
+}
+
+.grid-pic1{
+    grid-area: 1/1/2/3;
+    background-color: #888;
+    background-image: url(./pic01/01.jpg);
+    background-size: cover;
+    background-position: 40% 0;
+}
+.grid-pic2{
+    grid-area: 1/3/2/4;
+    background-color: #777;
+    background-image: url(./pic01/02.jpg);
+    background-size: cover;     
+}
+.grid-pic3{
+    grid-area: 1/4/2/5;
+    background-color: #888;
+    background-image: url(./pic01/03.jpg);
+    background-size: cover; 
+    background-position: center 0;
+}
+.grid-pic4{
+    grid-area: 1/5/2/6;
+    background-color: #777;
+    background-image: url(./pic01/04.jpg);
+    background-size: cover; 
+    background-position: center 0;
+}
+.grid-pic5{
+    grid-area: 2/1/3/3;
+    background-color: #888;
+    background-image: url(./pic01/05.jpg);
+    background-size: cover; 
+}
+.grid-pic6{
+    grid-area: 2/3/3/5;
+    background-color: #777;
+    background-image: url(./pic01/06.jpg);
+    background-size: cover; 
+    background-position: 0 55%;
+}
+.grid-pic7{
+    grid-area: 2/5/3/6;
+    background-color: #888;
+    background-image: url(./pic01/07.jpg);
+    background-size: cover; 
+}
+.grid-pic8{
+    grid-area: 3/1/4/3;
+    background-color: #888;
+    background-image: url(./pic01/08.jpg);
+    background-size: cover; 
+    background-position: 90% 0;
+}
+.grid-pic9{
+    grid-area: 3/3/4/5;
+    background-color: #777;
+    background-image: url(./pic01/09.jpg);
+    background-size: cover; 
+    background-position: 100% 0;
+}
+.grid-pic10{
+    grid-area: 3/5/4/6;
+    background-color: #888;
+    background-image: url(./pic01/10.jpg);
+    background-size: cover; 
+    background-position: center 0;
+}
+.grid-pic11{
+    grid-area: 4/1/5/3;
+    background-color: #888;
+    background-image: url(./pic01/11.jpg);
+    background-size: cover; 
+    background-position: 90% 0;
+}
+.grid-pic12{
+    grid-area: 4/3/5/5;
+    background-color: #777;
+    background-image: url(./pic01/12.jpg);
+    background-size: cover; 
+    background-position: 100% 0;
+}
+.grid-pic13{
+    grid-area: 4/5/5/6;
+    background-color: #888;
+    background-image: url(./pic01/13.jpg);
+    background-size: cover; 
+    background-position: 40% 0;
+}
+.grid-pic14{
+    grid-area: 5/1/6/3;
+    background-color: #888;
+    background-image: url(./pic01/14.jpg);
+    background-size: cover; 
+    background-position: center 0;
+
+}
+.grid-pic15{
+    grid-area: 5/3/6/5;
+    background-color: #777;
+    background-image: url(./pic01/15.jpg);
+    background-size: cover; 
+}
+
+.grid-text-position{
+    height: 200px;
+    width: 200px;
+   
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.grid-text1{
+    background-color: rgba(253,148,140,0.7);
+}
+.grid-text2{
+    background-color: rgba(220,191,172,0.7);
+}
+.grid-text3{
+    background-color: rgba(234,231,238,0.7);
+}
+.grid-text4{
+    background-color: rgba(203,161,129,0.7);
+}
+.grid-text5{
+    background-color: rgba(245,245,233,0.7);
+}
+.grid-text6{
+    background-color: rgba(47,106,182,0.7);
+}
+.grid-text7{
+    background-color: rgba(51,65,9,0.7);
+}
+.grid-text8{
+    background-color: rgba(180,89,104,0.7);
+}
+.grid-text9{
+    background-color: rgba(93,54,37,0.7);
+}
+.grid-text10{
+    background-color: rgba(226,182,60,0.7);
+}
+.grid-text11{
+    background-color: rgba(244,92,44,0.7);
+}
+.grid-text12{
+    background-color: rgba(210,219,228,0.7);
+}
+.grid-text13{
+    background-color: rgba(236,215,183,0.7);
+}
+.grid-text14{
+    background-color: rgba(153,195,57,0.7);
+}
+.grid-text15{
+    background-color: rgba(250,87,44,0.7);
+}

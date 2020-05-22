@@ -44,7 +44,8 @@
     grid-area: 1/3/2/4;
     background-color: #777;
     background-image: url(./pic01/02.jpg);
-    background-size: cover;     
+    background-size: cover;   
+    background-position: center 0;  
 }
 .grid-pic3{
     grid-area: 1/4/2/5;
@@ -78,6 +79,7 @@
     background-color: #888;
     background-image: url(./pic01/07.jpg);
     background-size: cover; 
+    background-position: 50% 0;
 }
 .grid-pic8{
     grid-area: 3/1/4/3;
@@ -105,21 +107,21 @@
     background-color: #888;
     background-image: url(./pic01/11.jpg);
     background-size: cover; 
-    background-position: 90% 0;
+    background-position: 100% 0;
 }
 .grid-pic12{
     grid-area: 4/3/5/5;
     background-color: #777;
     background-image: url(./pic01/12.jpg);
     background-size: cover; 
-    background-position: 100% 0;
+    background-position: 20% 0;
 }
 .grid-pic13{
     grid-area: 4/5/5/6;
     background-color: #888;
     background-image: url(./pic01/13.jpg);
     background-size: cover; 
-    background-position: 40% 0;
+    background-position: center 0;
 }
 .grid-pic14{
     grid-area: 5/1/6/3;
@@ -176,7 +178,7 @@
     background-color: rgba(253,148,140,0.7);
 }
 .grid-text2{
-    background-color: rgba(220,191,172,0.7);
+    background-color: rgba(187,220,253,0.7);
 }
 .grid-text3{
     background-color: rgba(234,231,238,0.7);
@@ -191,7 +193,7 @@
     background-color: rgba(47,106,182,0.7);
 }
 .grid-text7{
-    background-color: rgba(51,65,9,0.7);
+    background-color: rgba(157,125,105,0.7);
 }
 .grid-text8{
     background-color: rgba(180,89,104,0.7);
@@ -203,13 +205,13 @@
     background-color: rgba(226,182,60,0.7);
 }
 .grid-text11{
-    background-color: rgba(244,92,44,0.7);
+    background-color: rgba(248,216,193,0.7);
 }
 .grid-text12{
     background-color: rgba(210,219,228,0.7);
 }
 .grid-text13{
-    background-color: rgba(236,215,183,0.7);
+    background-color: rgba(180,120,150,0.7);
 }
 .grid-text14{
     background-color: rgba(153,195,57,0.7);

@@ -1,5 +1,8 @@
+
+
 *{
     box-sizing: border-box;
+    font-family: 'Old Standard TT', '微軟正黑體';
 }
 
 .nav{
@@ -10,11 +13,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
 }
 
 .nav-link>a{
     margin: 0 10px;
-    color: rgb(255, 255, 255);
+    color: #000;
     text-decoration: none;
 }
 .sec1{
@@ -157,11 +162,11 @@
     padding: 0.5rem;
     font-size: 1.4rem;
     text-align: center;
-    letter-spacing: 0.2rem;
-    
+    letter-spacing: 0.1rem;
+    font-family: 'Playfair Display', serif;
 }
 .grid-text-position>p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
     padding: 0.1rem;
 }
@@ -172,7 +177,7 @@
     display: flex;
     justify-content: center;
     padding: 45% 0 45% ;
-    
+    font-family:'Playfair Display', serif
 }
 .grid-text1{
     background-color: rgba(253,148,140,0.7);

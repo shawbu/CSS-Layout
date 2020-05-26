@@ -21,6 +21,11 @@
     margin: 0 10px;
     color: #000;
     text-decoration: none;
+    transition: 1s;
+}
+.nav-link> a:hover{
+    background-color: #fff;
+    padding: 0.3rem;
 }
 .sec1{
     display: flex;

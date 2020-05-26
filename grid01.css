@@ -26,6 +26,25 @@
     display: flex;
     justify-content: center;
 }
+.gotop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    border-radius: 50%;
+    background-color: #444;
+    z-index: 1;
+   
+}
+.gotop > a{
+    color: #fff;
+    text-decoration: none;
+    
+}
 .grid{
     display: grid;
     
@@ -126,7 +145,7 @@
     background-color: #888;
     background-image: url(./pic01/13.jpg);
     background-size: cover; 
-    background-position: center 0;
+    background-position: 30% 0;
 }
 .grid-pic14{
     grid-area: 5/1/6/3;
@@ -146,17 +165,25 @@
 .grid-pic16{
     height: 50%;
     grid-area: 5/5/6/6;
-    background-color: #f0f0f0;   
+    top: 0;
+    
    
 }
 
 
 .grid-text-position{
-    height: 200px;
+    height: 50px;
     width: 200px;
     position: absolute;
     bottom: 0;
     right: 0;
+    transition: 1.5s;
+    transition-timing-function: ease;
+}
+.grid-text-position:hover{
+    
+    width: 100%;
+    height: 50%;
 }
 .grid-text-position>h3{
     padding: 0.5rem;
@@ -166,9 +193,15 @@
     font-family: 'Playfair Display', serif;
 }
 .grid-text-position>p{
+    display: none;    
+}
+.grid-text-position:hover >p{
+    display: block;
     font-size: 1.2rem;
     text-align: center;
-    padding: 0.1rem;
+    padding: 1rem;
+    line-height: 1.5rem;
+   
 }
 .grid-text16>a{
     text-decoration: none;
@@ -216,10 +249,10 @@
     background-color: rgba(210,219,228,0.7);
 }
 .grid-text13{
-    background-color: rgba(180,120,150,0.7);
+    background-color: rgba(153,195,57,0.7);
 }
 .grid-text14{
-    background-color: rgba(153,195,57,0.7);
+    background-color: rgba(180,120,150,0.7);
 }
 .grid-text15{
     background-color: rgba(222,169,163,0.7);

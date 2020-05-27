@@ -16,7 +16,16 @@
     font-family: 'Playfair Display', serif;
     font-size: 1.2rem;
 }
-
+.nav-logo>a{
+    text-decoration: none;
+    color: #000;
+    transition: 1s;
+}
+.nav-logo> a:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0.3rem;
+    
+}
 .nav-link>a{
     margin: 0 10px;
     color: #000;
@@ -24,7 +33,7 @@
     transition: 1s;
 }
 .nav-link> a:hover{
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 0.3rem;
     border-radius: 10%;
 }

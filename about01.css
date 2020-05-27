@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Old Standard TT', '微軟正黑體';
+}
+
+.nav{
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+}
+
+.nav-link>a{
+    margin: 0 10px;
+    color: #000;
+    text-decoration: none;
+    transition: 1s;
+}
+.nav-link> a:hover{
+    background-color: #fff;
+    padding: 0.3rem;
+    border-radius: 10%;
+}

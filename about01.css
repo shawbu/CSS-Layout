@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: 'Old Standard TT', '微軟正黑體';
+    font-family: 'DM Mono', monospace, '微軟正黑體';
 }
 a{
     text-decoration: none;
@@ -48,12 +48,15 @@ h3{
     width: 100%;
     display: flex;
     padding: 3rem;
+    justify-content: center;
     
 }
 .sec-pic{
-    width: 50%;
+    width: 30%;
     min-width: 300px;
-    padding: 1rem;
+    max-width: 800px;
+    height: 100%;
+    padding: 1rem 0;
     background-color: rgb(253, 183, 183);
     text-align: center;
 }
@@ -70,19 +73,20 @@ h3{
     width: 50%;
     height: 100%;
     margin: 0 3rem;
-    background-color: #8aaccf;
-    padding: 1rem;
+    /* background-color: #8aaccf; */
+    /* padding: 1rem; */
     text-align: center;
 }
+.sec-text > h3{
+    margin: 1rem 0;
+}
 
-.content{
-    padding: 1rem;
-    
-    text-align: left;  
+.content{    
+    text-align: left;     
 }
 .content h4{
     font-size: 1.2rem;
-    margin: 0 0 0.5rem;   
+    margin:0.5rem 0;   
 }
 
 .content>div{
@@ -93,10 +97,10 @@ h3{
     text-align: right;
 }
 .content-paragraph{
-    background-color: #665481;
     text-align: inherit;
-    padding: 0.5rem 1rem;
     line-height: 1.5rem;
+    padding-bottom: 3rem;
+  
 }
 .content-paragraph a:hover{
     background-color: rgba(255, 255, 255, 0.5);

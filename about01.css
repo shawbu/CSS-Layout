@@ -12,6 +12,7 @@ h3{
 }
 .nav{
     background-color: rgba(206, 226, 255, 0.7);
+    
     width: 100%;
     height: 60px;
     display: flex;
@@ -44,20 +45,19 @@ h3{
 }
 /* main */
 .container{
-    background-color: rgba(206, 226, 255, 0.7);
+    background: linear-gradient(to right,rgba(52, 106, 187, 0.7) 50%, white 0%); 
     width: 100%;
     display: flex;
-    padding: 3rem;
+    padding: 3rem 15%;
     justify-content: center;
-    
 }
 .sec-pic{
-    width: 30%;
+    width: 50%;
     min-width: 300px;
     max-width: 1200px;
     height: 100%;
     padding: 1rem 0;
-    /* background-color: rgb(253, 183, 183); */
+    
     text-align: center;
 }
 .pic-text{
@@ -72,8 +72,10 @@ h3{
 .sec-text{
     width: 50%;
     height: 100%;
-    margin: 0 3rem;
+    padding: 0 3rem;
+    
     text-align: center;
+    
 }
 .sec-text > h3{
     margin: 1rem 0;
@@ -93,6 +95,7 @@ h3{
 }
 .content>div:nth-child(even){
     text-align: right;
+    
 }
 .content-paragraph{
     text-align: inherit;
@@ -108,8 +111,11 @@ h3{
 }
 /* 手機視窗 width<900px*/
 @media screen and (max-width:900px){
+   
     .container{
         display: block;
+        background: linear-gradient(to right,rgba(52, 106, 187, 0.7) 50%, white 0%); 
+        padding: 2rem;
         
     }
     .sec-pic{

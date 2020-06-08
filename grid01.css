@@ -312,6 +312,9 @@
         color: #000;
         text-decoration: none;
     } 
+    .gotop{
+        display: none;
+    }
     .grid{
         grid-template-rows: repeat(5,160px);
         grid-template-columns: repeat(5,80px);   

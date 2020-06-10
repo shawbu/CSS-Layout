@@ -29,7 +29,7 @@ h3{
 }
 .nav-logo> a:hover{
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 0.3rem;
+    
     
 }
 .nav-link>a{
@@ -40,7 +40,7 @@ h3{
 }
 .nav-link> a:hover{
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 0.3rem;
+  
     border-radius: 10%;
 }
 /* main */
@@ -57,8 +57,10 @@ h3{
     max-width: 1200px;
     height: 100%;
     padding: 1rem 0;
-    
     text-align: center;
+}
+.sec-pic img{
+    margin-bottom: 3rem;
 }
 .pic-text{
     padding: 1rem;

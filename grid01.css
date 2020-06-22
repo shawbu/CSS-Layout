@@ -6,11 +6,11 @@
 }
 
 .nav{
-    background-color:  #fff;
+    background-color:  rgba(206, 226, 255, 0.7);
     width: 100%;
     height: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0 1rem;
     font-family: 'Playfair Display', serif;
@@ -22,7 +22,7 @@
     transition: 1s;
 }
 .nav-logo> a:hover{
-    background-color: #e3dbd3; 
+    background-color: rgb(212, 240, 252); 
 }
 .nav-link>a{
     margin: 0 10px;
@@ -31,12 +31,13 @@
     transition: 1s;
 }
 .nav-link> a:hover{
-    background-color: #e3dbd3;
+    background-color: rgb(212, 240, 252);
 
    }
 .sec1{
     display: flex;
     justify-content: center;
+    background-color: rgba(52, 106, 187, 0.7);
 }
 .gotop{
     display: flex;
